@@ -1,0 +1,17 @@
+Version control System merupakan sistem yang mengelola perubahan dan seuah dokumen, program komputer, rancangan website, dan kumpulan informasi lainnya. Hal ini juga berguna untuk berkolaborasi dengan orang lain.
+Commit = file yang kita buat, bisa juga di ubah-ubah
+Branch = jalur development bebas dari sebuah commit
+GITHub = layanan cloud untuk menyimpan dan mengelola sebuah project
+Pull Request = meminta pemilik repo untuk mengambil/mengubah yang telah dilakukan orang lain
+Merge = menggabungkan dua branch
+
+Cara memasukkan git ke branch master
+1. $ git add <nama file>
+2. $ git commit -m "pesan atas nama file"
+
+Cara mengupdate file yang baru di edit
+1. $ git add .
+2. $ git commit -m "pesan atas perubahan file"
+
+Git log -> untuk melihat history dari perubahan file
+command => $ git log 
